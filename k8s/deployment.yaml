@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: cicd-argocd
-          image: pedropedrada/cicd-argocd:initial
+          image: pedropedrada/cicd-argocd:cc787e3a1d0b3f8862f5397860781ad57a356df0
           imagePullPolicy: Always
 
           ports:
